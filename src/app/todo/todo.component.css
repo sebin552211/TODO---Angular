@@ -1,0 +1,91 @@
+
+/* Container for the todo list */
+h1{
+  text-align: center;
+}
+.container{
+  background-color:  #c3ac47;
+  height: 100%;
+}
+div {
+  margin: 20px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+/* Input field for adding a new todo */
+input[type="text"] {
+  width: calc(100% - 100px); /* Full width minus button width */
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+/* Button to add a new todo */
+.AddButton {
+  padding: 10px 15px;
+  margin-left: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* Hover effect for the button */
+button:hover {
+  background-color: #0056b3;
+}
+
+/* List styling */
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* List items */
+li {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+  color: white;
+}
+
+/* Checkbox */
+input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+/* Task text */
+span {
+  flex-grow: 1;
+  font-size: 16px;
+}
+
+/* Style for completed tasks */
+.completed {
+  text-decoration: line-through;
+  color: #999;
+}
+
+/* Delete button */
+button {
+  background-color:  #161017;
+  margin-left: 10px;
+}
+
+/* Hover effect for delete button */
+button:hover {
+  background-color: #252b62;
+}
+.Table1{
+  background-color:white;
+}
